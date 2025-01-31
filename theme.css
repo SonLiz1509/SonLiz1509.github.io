@@ -1,137 +1,181 @@
-*{
+* {
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     color: #222;
+    box-sizing: border-box; /* Asegura que el padding y el borde estén incluidos en el tamaño del elemento */
 }
-html, body{
+
+html, body {
     margin: 0;
     height: 100vh;
     text-align: center;
 }
-.header{
+
+.header {
     background-image: url(./img/Ini.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 60%;
-    background-attachment: scroll;
+    background-position: center;
     background-size: cover;
     height: 40vh;
     margin: 0;
-    padding-top: 60vh;
+    padding-top: 20vh; /* Reducido para móviles */
 }
+
 .heading {
     color: #ffffff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: 6em;
+    font-size: 4em; /* Reducido para móviles */
     font-weight: normal;
     text-shadow: 0 0 10px #000;
 }
-.heading-subtext{
+
+.heading-subtext {
     color: #fff;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: .6em;
+    font-size: 0.5em; /* Reducido para móviles */
 }
-.fixed-button{
-    background: rgba(20,20,20,.5);
+
+.fixed-button {
+    background: rgba(20, 20, 20, 0.5);
     border-radius: 1em;
     bottom: 1em;
     color: white;
     font-weight: bold;
-    padding: 1em;
+    padding: 0.8em; /* Reducido para móviles */
     position: fixed;
     right: 1em;
     text-decoration: none;
     z-index: 9999;
 }
-.fixed-button::after{
+
+.fixed-button::after {
     content: "\25BE";
     display: block;
-    font-size: 28px;
+    font-size: 24px; /* Reducido para móviles */
     line-height: 0;
     margin-bottom: 6px;
     margin-top: 10px;
     text-align: center;
 }
+
 .fixed-button:active,
-.fixed-button:hover{
-    background: rgba(20,20,20,.9);
+.fixed-button:hover {
+    background: rgba(20, 20, 20, 0.9);
 }
-.section{
+
+.section {
     margin: 0 auto;
-    max-width: 600px;
-    padding: 1em 2.4em;
+    max-width: 100%; /* Ajustado para móviles */
+    padding: 1em;
 }
-.sub-heading{
+
+.sub-heading {
     font-family: 'Caveat', cursive;
-    font-size: 3em;
-    margin-top: 2em;
+    font-size: 2em; /* Reducido para móviles */
+    margin-top: 1.5em;
 }
-.details{
-    margin: 0 auto 8em;
+
+.details {
+    margin: 0 auto 4em; /* Reducido para móviles */
 }
-.details-heading{
+
+.details-heading {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .fas {
-    font-size: 3em;
-    opacity: .8;
+    font-size: 2em; /* Reducido para móviles */
+    opacity: 0.8;
 }
-.resort-image{
-    width: 100%
+
+.resort-image {
+    width: 100%;
+    height: auto; /* Asegura que la imagen sea responsiva */
 }
 
 .countdown {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px; /* Reducido para móviles */
     margin-top: 20px;
-  }
-  
-  .time-box {
+    flex-wrap: wrap; /* Asegura que los elementos se ajusten en pantallas pequeñas */
+}
+
+.time-box {
     background: #ffffff;
     border: 2px solid #333;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px; /* Reducido para móviles */
     text-align: center;
-    min-width: 80px;
-  }
-  
-  .time {
-    font-size: 2rem;
+    min-width: 60px; /* Reducido para móviles */
+}
+
+.time {
+    font-size: 1.5rem; /* Reducido para móviles */
     font-weight: bold;
     color: #ff5722;
-  }
-  
-  .label {
-    font-size: 1rem;
+}
+
+.label {
+    font-size: 0.8rem; /* Reducido para móviles */
     margin-top: 5px;
     display: block;
     color: #666;
-  }
-  
-  .music-controls {
+}
+
+.music-controls {
     margin-top: 20px;
-  }
-  
-  .music-button {
+}
+
+.music-button {
     background-color: #ff5722;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem; /* Reducido para móviles */
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 8px 16px; /* Reducido para móviles */
     cursor: pointer;
-  }
-  
-  .music-button:hover {
-    background-color: #e64a19;
-  }
-  
+}
 
+.music-button:hover {
+    background-color: #e64a19;
+}
+
+/* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     .heading {
-        font-size: 4em;
+        font-size: 3em; /* Más pequeño para móviles */
     }
-  }
+
+    .heading-subtext {
+        font-size: 0.4em; /* Más pequeño para móviles */
+    }
+
+    .sub-heading {
+        font-size: 1.5em; /* Más pequeño para móviles */
+    }
+
+    .section {
+        padding: 0.5em; /* Menos padding para móviles */
+    }
+
+    .countdown {
+        gap: 5px; /* Menos espacio entre elementos */
+    }
+
+    .time-box {
+        min-width: 50px; /* Más pequeño para móviles */
+        padding: 5px;
+    }
+
+    .time {
+        font-size: 1.2rem; /* Más pequeño para móviles */
+    }
+
+    .label {
+        font-size: 0.7rem; /* Más pequeño para móviles */
+    }
+}
