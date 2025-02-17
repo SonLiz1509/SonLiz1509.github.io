@@ -5,7 +5,7 @@ document.getElementById('rsvpForm').addEventListener('submit', async function (e
     const responseMessage = document.getElementById('responseMessage');
   
     try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbyvsXneSL1uvOMN-4356J2HlHHchrdputbKOgbqivV-z9I6H-GoHPjiF33G5qWzvoSy1g/exec', {
+      const response = await fetch('https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbx0sD1nUCTauFjWLOkdyc2XlvHH2T97yuNiDqYWf_WJz1yokfRLd-mh_p4G_642AT9rvA/exec', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

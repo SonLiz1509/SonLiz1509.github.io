@@ -9,105 +9,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>  
-    <header class="header">
-      <h1 class="heading">
-        Sandy & Hugo
-        <span class="heading-subtext"> se casan!</span>
-      </h1>
-    </header>
 
-    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> 
-                <audio id="my_audio" controls loop>
-                <source src="./audio/CamiloSesto_Jamas.mp3" type="audio/mp3">
-                <!--<source src="como-pagarte.mp3" type="audio/mpeg">-->
-                Your browser does not support the audio element.
-		
-            </audio>
-            <!--=== End of music ===-->
-            <!-- s  t music-box -->
-            <div class="music-box" id="music_box">
-                <button class="music-box-toggle-btn" id="music-button">
-                    <i class="fa fa-music"></i>
-                </button>
-            </div>
-            <!-- end music box -->
-    <section id="countdown" class="countdown">
-      <div class="time-box">
-        <span id="days" class="time">0</span>
-        <span class="label">Días</span>
-      </div>
-      <div class="time-box">
-        <span id="hours" class="time">0</span>
-        <span class="label">Horas</span>
-      </div>
-      <div class="time-box">
-        <span id="minutes" class="time">0</span>
-        <span class="label">Minutos</span>
-      </div>
-      <div class="time-box">
-        <span id="seconds" class="time">0</span>
-        <span class="label">Segundos</span>
-      </div>
-      <script src="./js/counter.js"></script>
-    </section>
-    <section class="section">
-      <h2 class="sub-heading">Recuerda</h2>
-      <p>"¡El gran día está por llegar! Estamos emocionados de compartir este momento tan especial con ustedes."</p>
-    </section>
-    <section class="section">
-      <h2 class="sub-heading">Los detalles</h2>
-      <div class="details">
-        <i class="fas fa-calendar-check"></i>
-        <h3 class="details-heading">Cuándo</h3>
-        <p>Noviembre 15, 2025</p>
-        <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a>
-      </div>
-      <div class="details">
-        <i class="fas fa-map-marked-alt"></i>
-        <h3 class="details-heading">Location</h3>
-        <p><a rel="noopener" href="https://maps.app.goo.gl/6vh5WHnp1UHyJwrv7">Salon las Bonis</a>, City, State</p>
-        <img class="resort-image" src="./img/resort.jpeg" alt="Resort" />
-      </div>
-      <div class="details">
-        <i class="fas fa-suitcase"></i>
-        <h3 class="details-heading">Lodging</h3>
-        <p>DJ Jazzy Nupitals guitar acoustic bass embarrassing first aisle guitar acoustic bass cheers glitter . Macarena fish aisle aisle wedding, forever happy salad  drunk groomsman overpriced florist embarrassing coworkers tuxedo aisle guitar acoustic bass champagne bouquet. Ring wedding beautiful tuxedo fish toast, veil Bryna aisle centerpieces. Cheers embarrassing bouquet bouquet Bryna overpriced florist DJ Jazzy Nupitals Bryna macarena. DJ Jazzy Nupitals prime rib centerpieces centerpieces cake dessert, cake dessert tuxedo aisle seat covers aisle.</p>
-        <p>Church Will chicken unity sparkles Bryna cake dessert, centerpieces aisle Will debt guitar acoustic bass glitter . Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
-      </div>
-      <div class="details">
-        <i class="fas fa-plane-departure"></i>
-        <h3 class="details-heading">Flights</h3>
-        <p>Ring wedding beautiful tuxedo fish toast, veil Bryna aisle centerpieces. Cheers embarrassing bouquet bouquet Bryna overpriced florist DJ Jazzy Nupitals Bryna macarena.</p>
-        <p>Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
-      </div>
-      <div class="details">
-        <i class="fas fa-asterisk"></i>
-        <h3 class="details-heading">Other Notes</h3>
-        <p>Cake dessert mother guitar acoustic bass cheers, uncle joe seat covers guitar acoustic bass macarena seat covers cake dessert embarrassing.</p>
-        <p>Also, your presence is the only present we desire. No gift required.</p>
-      </div>
-      <div class="details">
-        <i class="fas fa-reply"></i>
-        <h3 class="details-heading" id="rsvp">RSVP</h3>
-        <p>[Embed your RSVP form here]</p>
+        <!-- Pantalla de inicio -->
+    <div id="portada">
+        <div class="texto-portada">
+            <h1>"Encontrarnos fue descubrir que la ternura es nuestro don. Hoy celebramos un amor que nos hace sentir vivos, libres y eternos. Los invitamos a ser parte de este viaje donde la pasión y la ternura se entrelazan para siempre."</h1>
+        </div>
+        <button id="btnInvitacion">Ver Invitación</button>
+    </div>
+
+    <div id=contenido>
+      
+      <header class="header">
+        <h1 class="heading">
+          Sandy & Hugo
+          <span class="heading-subtext"> se casan!</span>
+        </h1>
+      </header>
+
+      <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> 
+      <section id="countdown" class="countdown">
+        <div class="time-box">
+          <span id="days" class="time">0</span>
+          <span class="label">Días</span>
+        </div>
+        <div class="time-box">
+          <span id="hours" class="time">0</span>
+          <span class="label">Horas</span>
+        </div>
+        <div class="time-box">
+          <span id="minutes" class="time">0</span>
+          <span class="label">Minutos</span>
+        </div>
+        <div class="time-box">
+          <span id="seconds" class="time">0</span>
+          <span class="label">Segundos</span>
+        </div>
+        <script src="./js/counter.js"></script>
+      </section>
+      <section class="section">
+        <h2 class="sub-heading">Recuerda</h2>
+        <p>"¡El gran día está por llegar! Estamos emocionados de compartir este momento tan especial con ustedes."</p>
+      </section>
+      <section class="section">
+        <h2 class="sub-heading">Los detalles</h2>
+        <div class="details">
+          <i class="fas fa-calendar-check"></i>
+          <h3 class="details-heading">Cuándo</h3>
+          <p>Noviembre 15, 2025</p>
+          <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a>
+        </div>
+        <div class="details">
+          <i class="fas fa-map-marked-alt"></i>
+          <h3 class="details-heading">Location</h3>
+          <p><a rel="noopener" href="https://maps.app.goo.gl/6vh5WHnp1UHyJwrv7">Salon las Bonis</a>, City, State</p>
+          <img class="resort-image" src="./img/resort.jpeg" alt="Resort" />
+        </div>
+        <div class="details">
+          <i class="fas fa-suitcase"></i>
+          <h3 class="details-heading">Lodging</h3>
+          <p>DJ Jazzy Nupitals guitar acoustic bass embarrassing first aisle guitar acoustic bass cheers glitter . Macarena fish aisle aisle wedding, forever happy salad  drunk groomsman overpriced florist embarrassing coworkers tuxedo aisle guitar acoustic bass champagne bouquet. Ring wedding beautiful tuxedo fish toast, veil Bryna aisle centerpieces. Cheers embarrassing bouquet bouquet Bryna overpriced florist DJ Jazzy Nupitals Bryna macarena. DJ Jazzy Nupitals prime rib centerpieces centerpieces cake dessert, cake dessert tuxedo aisle seat covers aisle.</p>
+          <p>Church Will chicken unity sparkles Bryna cake dessert, centerpieces aisle Will debt guitar acoustic bass glitter . Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
+        </div>
+        <div class="details">
+          <i class="fas fa-plane-departure"></i>
+          <h3 class="details-heading">Flights</h3>
+          <p>Ring wedding beautiful tuxedo fish toast, veil Bryna aisle centerpieces. Cheers embarrassing bouquet bouquet Bryna overpriced florist DJ Jazzy Nupitals Bryna macarena.</p>
+          <p>Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
+        </div>
+        <div class="details">
+          <i class="fas fa-asterisk"></i>
+          <h3 class="details-heading">Other Notes</h3>
+          <p>Cake dessert mother guitar acoustic bass cheers, uncle joe seat covers guitar acoustic bass macarena seat covers cake dessert embarrassing.</p>
+          <p>Also, your presence is the only present we desire. No gift required.</p>
+        </div>
         <div class="details">
           <i class="fas fa-reply"></i>
           <h3 class="details-heading" id="rsvp">RSVP</h3>
-          <form id="rsvpForm">
-            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
-            <button type="submit">Confirmar Asistencia</button>
-          </form>
-          <p id="responseMessage"></p>
-        </div>
-        <script src="./js/rvps.js"></script>
+          <p>[Embed your RSVP form here]</p>
+          <div class="details">
+            <i class="fas fa-reply"></i>
+            <h3 class="details-heading" id="rsvp">RSVP</h3>
+            <form id="rsvpForm">
+              <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+              <button type="submit">Confirmar Asistencia</button>
+            </form>
+            <p id="responseMessage"></p>
+          </div>
+          <script src="./js/rvps.js"></script>
 
-        <!-- Include Embedded link of Google Form here in place of # -->
-        <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
-      </div>
-    </section>
+          <!-- Include Embedded link of Google Form here in place of # -->
+          <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+        </div>
+      </section>
+    </div>
   </div>
+      <!-- Audio de fondo -->
+    <audio id="musica" loop>
+        <source src="./audio/don_ternura.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>
 
     <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+              document.getElementById('btnInvitacion').addEventListener('click', function() {
+            // Transición de salida de la portada
+            document.getElementById('portada').style.opacity = '0';
+
+            setTimeout(() => {
+                document.getElementById('portada').style.display = 'none';
+                document.getElementById('contenido').style.display = 'block';
+
+                // Transición de entrada para la invitación
+                setTimeout(() => {
+                    document.getElementById('contenido').style.opacity = '1';
+                }, 100);
+
+                // Reproducir música
+                document.getElementById('musica').play();
+            }, 1000); // Espera 1s para la transición de salida
+        });
+    </script>
     <script defer>
       var scroll = new SmoothScroll('a[href*="#"]');
       var rsvpButton = document.getElementById('rsvpButton')
