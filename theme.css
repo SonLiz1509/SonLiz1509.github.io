@@ -244,4 +244,16 @@ html, body {
     .label {
         font-size: 0.7rem; /* Más pequeño para móviles */
     }
+    .texto-portada h1 {
+        font-size: 1.8em; /* Reducir el tamaño de la fuente en móviles */
+    }
+
+    .texto-portada p {
+        font-size: 1em; /* Reducir tamaño de párrafo */
+    }
+
+    #btnInvitacion {
+        padding: 12px 25px; /* Ajustar tamaño del botón */
+        font-size: 16px;
+    }
 }
