@@ -349,12 +349,17 @@ html, body {
 
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
+    .header {
+        height: 60vh; /* Ajusta la altura para móviles */
+        padding-top: 25vh;
+    }
+
     .heading {
-        font-size: 3em; /* Más pequeño para móviles */
+        font-size: 2.5em; /* Reduce tamaño del texto */
     }
 
     .heading-subtext {
-        font-size: 0.4em; /* Más pequeño para móviles */
+        font-size: 1em;
     }
 
     .sub-heading {
@@ -394,5 +399,41 @@ html, body {
         font-size: 16px;
     }
 
+    .section {
+        flex-direction: column; /* Cambia de fila a columna */
+        text-align: center; /* Centra el texto */
+    }
+
+    .section img {
+        width: 80%; /* Hace la imagen más pequeña */
+        margin: 0 auto; /* Centra la imagen */
+    }
+
+    .carousel {
+        width: 90%; /* Ajusta el tamaño del carrusel */
+    }
+
+    .carousel img {
+        max-height: 250px; /* Reduce el tamaño de las imágenes */
+    }
+
+    .carousel-caption {
+        font-size: 14px; /* Ajusta el tamaño del texto */
+    }
+
+    .carousel button {
+        width: 40px; /* Aumenta el tamaño de los botones */
+        height: 40px;
+    }
+
+    .rsvp-form {
+        width: 90%; /* Reduce el tamaño del formulario */
+        padding: 10px;
+    }
+
+    .rsvp-form input,
+    .rsvp-form button {
+        font-size: 16px; /* Hace los campos más fáciles de tocar */
+    }
 
 }
