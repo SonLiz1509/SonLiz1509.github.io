@@ -350,7 +350,7 @@ html, body {
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     .header {
-        height: 60vh; /* Ajusta la altura para móviles */
+        width: 100%; /* Ajusta la altura para móviles */
         padding-top: 25vh;
     }
 
