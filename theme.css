@@ -366,10 +366,6 @@ html, body {
         font-size: 1.5em; /* Más pequeño para móviles */
     }
 
-    .section {
-        padding: 0.5em; /* Menos padding para móviles */
-    }
-
     .countdown {
         gap: 5px; /* Menos espacio entre elementos */
     }
@@ -400,13 +396,20 @@ html, body {
     }
 
     .section {
-        flex-direction: column; /* Cambia de fila a columna */
+        display: flex;
+        flex-direction: column; /* Cambia de columnas a filas */
         text-align: center; /* Centra el texto */
     }
 
+    .section div {
+        width: 100%; /* Asegura que ocupen todo el ancho */
+    }
+
     .section img {
-        width: 80%; /* Hace la imagen más pequeña */
-        margin: 0 auto; /* Centra la imagen */
+        width: 90%; /* Ajusta el tamaño de la imagen */
+        max-width: 400px; /* Tamaño máximo para evitar imágenes enormes */
+        margin: 20px auto; /* Centra la imagen */
+        border-radius: 15px; /* Bordes redondeados opcionales */
     }
 
     .carousel {
