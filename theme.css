@@ -351,7 +351,7 @@ html, body {
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     .header {
-        width: 90% ; /* Ocupa toda la pantalla */ /* Ajusta la altura para móviles */
+        width: 100vh ; /* Ocupa toda la pantalla */ /* Ajusta la altura para móviles */
         padding-top: 25vh;
     }
 
@@ -414,15 +414,15 @@ html, body {
     }
 
     .history-image {
-        width: 90%;
+        max-width: 90%;
     }
     
     .history-text{
-        width: 90%;
+        max-width: 90%;
     }
 
     .cv-image {
-        width: 90%;
+        max-width: 90%;
     }
 
     .carousel {
