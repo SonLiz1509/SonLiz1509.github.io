@@ -351,7 +351,7 @@ html, body {
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     .header {
-        width:400px ; /* Ocupa toda la pantalla */ /* Ajusta la altura para móviles */
+        width: 90% ; /* Ocupa toda la pantalla */ /* Ajusta la altura para móviles */
         padding-top: 25vh;
     }
 
@@ -411,17 +411,6 @@ html, body {
         flex-direction: column;  /* Cambia de fila a columna */
         align-items: center;     /* Centra los elementos */
         gap: 10px;               /* Ajusta el espacio entre imagen y texto */
-    }
-
-    .history-container img {
-        width: 80%;              /* Ajusta el tamaño de la imagen */
-        max-width: 400px;        /* Limita el tamaño máximo */
-        margin-bottom: 20px;     /* Añade un espacio entre la imagen y el texto */
-    }
-
-    .history-container p {
-        text-align: center;      /* Centra el texto */
-        font-size: 1em;          /* Ajusta el tamaño del texto */
     }
 
     .history-image {
