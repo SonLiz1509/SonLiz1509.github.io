@@ -83,7 +83,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh; /* Ocupa toda la pantalla */
+    height: 80vh; /* Ocupa toda la pantalla */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +91,7 @@ html, body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%); /* Recorte diagonal */
     border: 8px solid #F5F5DC; /* Borde color hueso */
     box-shadow: 0 0 15px rgba(245, 245, 220, 0.6); /* Sutil resplandor color hueso */
+    padding-top: 20vh; /* Reducido para móviles */
 }
 
 
@@ -350,7 +351,7 @@ html, body {
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     .header {
-        height: 50%; /* Ocupa toda la pantalla */ /* Ajusta la altura para móviles */
+        width:500px ; /* Ocupa toda la pantalla */ /* Ajusta la altura para móviles */
         padding-top: 25vh;
     }
 
