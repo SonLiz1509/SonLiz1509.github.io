@@ -1,0 +1,38 @@
+CSS ...
+.header {
+    background-image: url(./img/Ini.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    margin: 0;
+    padding-top: 20vh; /* Reducido para móviles */
+}
+
+.heading {
+    color: #ffffff;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 4em; /* Reducido para móviles */
+    font-weight: normal;
+    text-shadow: 0 0 10px #000;
+}
+
+.heading-subtext {
+    color: #fff;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 0.5em; /* Reducido para móviles */
+}
+
+html...
+<header class="header">
+        <h1 class="heading">
+          Sandy & Hugo
+          <span class="heading-subtext"> se casan!</span>
+        </h1>
+      </header>
+
+
+Como le hago para que la imagen del header tome el tamaño de toda la pantalla,  y este dentro el texto " Sandy & Hugo se casan!"
+"

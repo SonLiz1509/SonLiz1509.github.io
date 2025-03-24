@@ -52,25 +52,75 @@
         <p>"¡El gran día está por llegar! Estamos emocionados de compartir este momento tan especial con ustedes."</p>
       </section>
       <section class="section">
+        <h2 class="sub-heading">Nuestra historia</h2>
+          <div class="history-container">
+        <!-- Imagen fija a la izquierda -->
+              <div class="history-image">
+                <div class="carousel">
+                    <div class="carousel-container">
+                        <div class="slide">
+                            <img src="./img/Img1.jpg" alt="Imagen 1">
+                        </div>
+                        <div class="slide">
+                            <img src="./img/Img2.jpg" alt="Imagen 2">
+                        </div>
+                        <div class="slide">
+                            <img src="./img/Img3.jpg" alt="Imagen 3">
+                        </div>
+                        <div class="slide">
+                            <img src="./img/Img4.jpg" alt="Imagen 4">
+                        </div>
+                    </div>
+                    <p class="caption" id="caption">... Nuestra primera foto juntos 💕 ...</p>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+              </div>
+        <!-- Texto a la derecha -->
+        <div class="history-text">
+          <p>Nuestra historia comenzó cuando teníamos 20 años, sin imaginar que el destino nos llevaría hasta aquí. Después de muchas risas, aventuras y momentos inolvidables, el 31 de mayo de 2017 decidimos dar el primer paso como pareja, y desde entonces hemos compartido 8 años de amor, crecimiento y sueños en común.</p>
+          <p>El 28 de abril de 2024, Hugo dio un paso más y me pidió que pasáramos el resto de nuestras vidas juntos. ¡Y por supuesto, dije que sí! 💍</p>
+          <p>Aunque somos polos opuestos—él más introvertido y yo más extrovertida—hemos encontrado en nuestras diferencias un complemento perfecto. Nos une nuestro amor por viajar, nuestras metas en la vida y esa complicidad que nos hace soñar en grande.</p>
+          <p>Nuestra familia ya tiene dos integrantes muy especiales: Bony, nuestra perrita traviesa de 4 años, y Deysi, quien llegó hace seis meses para llenarnos aún más de amor y diversión. Junto a ellas hemos formado un hogar lleno de alegría y, en algún momento, nos encantaría completarlo con un bebé que haga aún más especial nuestro camino juntos.</p>
+          <p>Sabemos que nos esperan muchas más aventuras, quizás incluso ver nieve juntos ❄️, construir nuestro hogar soñado y, quién sabe, hasta aprender a bailar rock and roll con Sandy. Lo único seguro es que, mientras nos apoyemos mutuamente, todo será increíble.</p>
+          <p>Estamos emocionados por lo que viene y felices de poder compartir este momento con ustedes. ¡Gracias por ser parte de nuestra historia! ❤️</p>
+        </div>
+      </div>
+
+      <script src="./js/carrusel.js"></script>
+
+      </section>
+
+      <section class="section">
         <h2 class="sub-heading">Los detalles</h2>
         <div class="details">
           <i class="fas fa-calendar-check"></i>
           <h3 class="details-heading">Cuándo</h3>
           <p>Noviembre 15, 2025</p>
-          <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a>
+         <!-- <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a> -->
         </div>
         <div class="details">
           <i class="fas fa-map-marked-alt"></i>
           <h3 class="details-heading">Location</h3>
-          <p><a rel="noopener" href="https://maps.app.goo.gl/6vh5WHnp1UHyJwrv7">Salon las Bonis</a>, City, State</p>
-          <img class="resort-image" src="./img/resort.jpeg" alt="Resort" />
+          <p><a rel="noopener" href="https://maps.app.goo.gl/VWDm5LAn538t8Byj6">Jardin Xóchitl & Huitzilin</a></p>
+          <p> Privada de Fragoso 21, Santo Tomas Chiconautla, 55068 Ecatepec de Morelos, Méx.</p>
+          <img class="resort-image" src="./img/" alt="Resort" />
         </div>
         <div class="details">
           <i class="fas fa-suitcase"></i>
-          <h3 class="details-heading">Lodging</h3>
-          <p>DJ Jazzy Nupitals guitar acoustic bass embarrassing first aisle guitar acoustic bass cheers glitter . Macarena fish aisle aisle wedding, forever happy salad  drunk groomsman overpriced florist embarrassing coworkers tuxedo aisle guitar acoustic bass champagne bouquet. Ring wedding beautiful tuxedo fish toast, veil Bryna aisle centerpieces. Cheers embarrassing bouquet bouquet Bryna overpriced florist DJ Jazzy Nupitals Bryna macarena. DJ Jazzy Nupitals prime rib centerpieces centerpieces cake dessert, cake dessert tuxedo aisle seat covers aisle.</p>
-          <p>Church Will chicken unity sparkles Bryna cake dessert, centerpieces aisle Will debt guitar acoustic bass glitter . Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
-        </div>
+          <h3 class="details-heading">Codigo de vestimenta</h3>
+          <div class="history-container">
+              <div class="history-text">
+                
+                <p>El evento será formal y se llevará a cabo en un jardín durante la noche. Les recomendamos elegir atuendos acordes a la ocasión y considerar calzado cómodo para disfrutar plenamente de la celebración.</p>
+                <p>No se proporcionarán sandalias, así que no duden en traer el calzado con el que se sientan más a gusto para bailar y celebrar con nosotros.</p>
+                <p>¡Esperamos verlos radiantes y listos para una noche inolvidable!</p>
+              </div>
+              <div class="cv-image">
+                <img src=".\img\COD_VES.png" alt="Nuestra historia">
+              </div>
+            </div>
+            </div>
         <div class="details">
           <i class="fas fa-plane-departure"></i>
           <h3 class="details-heading">Flights</h3>
@@ -86,16 +136,11 @@
         <div class="details">
           <i class="fas fa-reply"></i>
           <h3 class="details-heading" id="rsvp">RSVP</h3>
-          <p>[Embed your RSVP form here]</p>
-          <div class="details">
-            <i class="fas fa-reply"></i>
-            <h3 class="details-heading" id="rsvp">RSVP</h3>
-            <form id="rsvpForm">
-              <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
-              <button type="submit">Confirmar Asistencia</button>
-            </form>
-            <p id="responseMessage"></p>
+          <div class="rsvp">
+              <p>Por favor, confirma tu asistencia antes del 10 de abril de 2024.</p>
+              <a href="https://forms.gle/wtAoiqXS23r7kUoc9" class="rsvp-btn">Confirmar Asistencia</a>
           </div>
+
           <script src="./js/rvps.js"></script>
 
           <!-- Include Embedded link of Google Form here in place of # -->
