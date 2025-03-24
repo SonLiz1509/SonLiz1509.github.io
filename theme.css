@@ -406,15 +406,15 @@ html, body {
     }
 
     .history-image {
-        max-width: 90%;
+        width: 90%;
     }
     
     .history-text{
-        max-width: 90%;
+        width: 90%;
     }
 
     .cv-image {
-        max-width: 90%;
+        width: 90%;
     }
 
     .carousel {
