@@ -251,7 +251,7 @@ html, body {
     
     .history-text {
         flex: 2;
-        max-width: 60%;
+        max-width: 90%;
         text-align: justify;
         font-size: 1.1rem;
         color: #2F3A1D; /* Verde profundo elegante */
@@ -272,7 +272,6 @@ html, body {
 
     .cv-image {
         flex: 1; /* La imagen ocupa el 40% */
-        max-width: 70%;
     }
     
     .cv-image img {
@@ -385,7 +384,7 @@ html, body {
         bottom: 1rem;
         left: 1rem;
         z-index: 999;
-        background: rgba(255, 255, 255, 0.2); /* Semitransparente */
+        background: rgba(20, 20, 20, 0.5); /* Semitransparente */
         backdrop-filter: blur(6px);
         border-radius: 12px;
         padding: 8px;
@@ -396,10 +395,14 @@ html, body {
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease;
         display: none; /* Oculta al inicio */
+        color: white;
+    }
+    .music-controls i{
+        color: #ecf3ec; /* Verde olivo */
     }
     
     .music-controls:hover {
-        background: rgba(255, 255, 255, 0.4); /* Resalta un poco más al pasar el mouse */
+        background: background: rgba(20, 20, 20, 0.4); /* Resalta un poco más al pasar el mouse */
     }
     
     .music-button {
@@ -440,8 +443,8 @@ html, body {
 
 /* Estilos para Mesa de Regalos */
 .gift-container {
-    max-width: 800px;
-    margin: 0 auto;
+    width: 95%;
+    margin: 2px auto;
     padding: 20px;
     background: rgba(245, 245, 220, 0.1);
     border-radius: 10px;
@@ -483,7 +486,7 @@ html, body {
     padding: 5px;
     background: rgba(245, 245, 220, 0.2); /* Color muy tenue tipo pergamino */
     box-shadow: 0 4px 10px rgba(76, 88, 68, 0.1); /* Sombra suave */
-    margin: 10px auto;
+    margin: 1px auto;
     max-width: 90%;
     transition: all 0.3s ease;
 }
@@ -500,7 +503,7 @@ html, body {
     /* Ajustes para móviles */
       
     .header {
-        width: 100%; /* Altura reducida */
+        height: 100%; /* Altura reducida */
         clip-path: none; /* Elimina el recorte diagonal */
         border-width: 4px; /* Borde más delgado */
         background-size: cover; /* Cubre todo el ancho */
@@ -575,11 +578,18 @@ html, body {
     }
     
     .history-text {
-        text-align: left;
+        max-width: 95%;
+        padding: 18px;
+        font-size: 1rem;
+        border-left: none;
+        border-radius: 15px;
+        border: 2px solid #6B8E23; /* borde completo, más sutil */
+        box-shadow: 0 2px 8px rgba(76, 88, 68, 0.1);
+        background: linear-gradient(to bottom, #f9f7f1, #eae6d9);
     }
 
     .cv-image {
-        max-width: 90%;
+        width: 100%;
     }
 
     .carousel {
@@ -612,7 +622,7 @@ html, body {
 
     .elegant-box {
         padding: 5px 2px; /* Reducir padding (arriba/abajo | izquierda/derecha) */
-        margin: 5px auto; /* Menos margen exterior */
+        margin: 0px auto; /* Menos margen exterior */
         max-width: 95%; /* Ocupa más ancho */
         border-width: 1px; /* Borde más fino */
     }
