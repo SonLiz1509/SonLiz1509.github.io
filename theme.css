@@ -276,7 +276,7 @@ html, body {
     }
     
     .cv-image img {
-        width: 80%; /* Imagen adaptable */
+        width: 90%; /* Imagen adaptable */
         border-radius: 10px; /* Bordes redondeados */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
     }
@@ -480,10 +480,10 @@ html, body {
 .elegant-box {
     border: 1px solid #aebd90; /* Verde olivo elegante */
     border-radius: 15px;
-    padding: 10px;
+    padding: 5px;
     background: rgba(245, 245, 220, 0.2); /* Color muy tenue tipo pergamino */
     box-shadow: 0 4px 10px rgba(76, 88, 68, 0.1); /* Sombra suave */
-    margin: 20px auto;
+    margin: 10px auto;
     max-width: 90%;
     transition: all 0.3s ease;
 }
@@ -500,7 +500,7 @@ html, body {
     /* Ajustes para móviles */
       
     .header {
-        height: 70vh; /* Altura reducida */
+        width: 70vh; /* Altura reducida */
         clip-path: none; /* Elimina el recorte diagonal */
         border-width: 4px; /* Borde más delgado */
         background-size: cover; /* Cubre todo el ancho */
@@ -611,8 +611,8 @@ html, body {
     }
 
     .elegant-box {
-        padding: 15px 10px; /* Reducir padding (arriba/abajo | izquierda/derecha) */
-        margin: 10px auto; /* Menos margen exterior */
+        padding: 10px 5px; /* Reducir padding (arriba/abajo | izquierda/derecha) */
+        margin: 5px auto; /* Menos margen exterior */
         max-width: 95%; /* Ocupa más ancho */
         border-width: 1px; /* Borde más fino */
     }
@@ -620,14 +620,14 @@ html, body {
     /* Desactiva transformaciones en móvil si no son necesarias */
     .elegant-box:hover {
         transform: none;
-        box-shadow: 0 4px 10px rgba(76, 88, 68, 0.1); /* Mantén la sombra base */
+        box-shadow: 0 3px 10px rgba(76, 88, 68, 0.1); /* Mantén la sombra base */
     }
 
     /* Ajusta textos internos si es necesario */
     .elegant-box h3, 
     .elegant-box p {
         font-size: 0.9rem; /* Texto más pequeño */
-        padding: 0 5px; /* Padding interno reducido */
+        padding: 0 2px; /* Padding interno reducido */
     }
 
     .rsvp-btn {
