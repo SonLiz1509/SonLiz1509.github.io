@@ -590,4 +590,35 @@ html, body {
         font-size: 16px; /* Hace los campos más fáciles de tocar */
     }
 
+    .elegant-box {
+        padding: 15px 10px; /* Reducir padding (arriba/abajo | izquierda/derecha) */
+        margin: 10px auto; /* Menos margen exterior */
+        max-width: 95%; /* Ocupa más ancho */
+        border-width: 1px; /* Borde más fino */
+    }
+
+    /* Desactiva transformaciones en móvil si no son necesarias */
+    .elegant-box:hover {
+        transform: none;
+        box-shadow: 0 4px 10px rgba(76, 88, 68, 0.1); /* Mantén la sombra base */
+    }
+
+    /* Ajusta textos internos si es necesario */
+    .elegant-box h3, 
+    .elegant-box p {
+        font-size: 0.9rem; /* Texto más pequeño */
+        padding: 0 5px; /* Padding interno reducido */
+    }
+
+    .rsvp-btn {
+        display: inline-block;
+        padding: 12px 20px;       /* Tamaño táctil mínimo (48px) */
+        font-size: 1rem;          /* Texto legible */
+        white-space: nowrap;      /* Evita saltos de línea */
+        min-width: 150px;         /* Ancho mínimo garantizado */
+        text-align: center;       /* Centra el texto */
+        margin: 10px 0;           /* Espaciado exterior */
+        box-sizing: border-box;   /* Incluye padding en el ancho */
+    }
+
 }
