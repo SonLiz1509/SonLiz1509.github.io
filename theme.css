@@ -279,12 +279,12 @@ html, body {
 
     .carousel {
         position: relative;
-        width: 80% ;  /* Tamaño fijo del carrusel */
-        
+        width: 100%; /* Cambiado a 100% para ajustarse al contenedor padre */
+        max-width: 900px; /* Límite en pantallas grandes */
         margin: auto;
         overflow: hidden;
-        background-color: #F5F5DC; /* Fondo color hueso */
-        border-radius: 20px; /* Bordes redondeados */
+        background-color: #F5F5DC;
+        border-radius: 20px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         display: flex;
         flex-direction: column;
@@ -307,10 +307,12 @@ html, body {
     }
     
     .slide img {
-        max-width: 80%; /* Para que no se salga del contenedor */
-        max-height: 90%;
-        border-radius: 10px; /* Redondeo de las imágenes */
-        border: 4px solid #F5F5DC; /* Borde color hueso */
+        width: 100%; /* Se ajusta al ancho del slide */
+        height: auto;
+        max-height: 500px; /* Controla que no se alargue demasiado en pantallas altas */
+        border-radius: 10px;
+        border: 4px solid #F5F5DC;
+        object-fit: cover;
     }
     
     /* Caption estático */
@@ -350,6 +352,24 @@ html, body {
 
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
+    /* Ajustes para móviles */
+    #portada {
+        background-position: top center;
+        background-size: contain; /* ajusta ancho y respeta proporción */
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+    
+      .texto-portada {
+        padding: 10px;
+        width: 90%;
+      }
+    
+      .texto-portada h1,
+      .texto-portada p {
+        font-size: 1em; /* Evita que se vea muy chico el texto */
+      }
+      
     .header {
         width: 100vh ; /* Ocupa toda la pantalla */ /* Ajusta la altura para móviles */
         padding-top: 25vh;

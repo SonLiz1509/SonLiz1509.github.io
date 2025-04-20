@@ -1,8 +1,8 @@
 let index = 0;
 const captions = [
-    "... Nuestra primera foto juntos 💕 ...",
+    "... Primera foto juntos 💕 ...",
     "... Una aventura inolvidable ✈️ ...",
-    "... Nuestra perrita Bony 🐶 ...",
+    "... Nuestros perritos 🐶 ...",
     "... El día que dijimos 'Sí' 💍 ..."
 ];
 
