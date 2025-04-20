@@ -250,11 +250,24 @@ html, body {
     }
     
     .history-text {
-        flex: 2; /* El texto ocupa el 60% */
+        flex: 2;
         max-width: 60%;
         text-align: justify;
-        font-size: 1rem;
-        color: #333;
+        font-size: 1.1rem;
+        color: #2F3A1D; /* Verde profundo elegante */
+        font-family: 'Georgia', serif; /* Tipografía clásica y romántica */
+        background: linear-gradient(to bottom right, #f9f7f1, #eae6d9); /* Fondo tipo pergamino claro */
+        padding: 25px;
+        border-left: 8px solid #6B8E23; /* Línea vertical tipo cinta elegante */
+        border-radius: 20px 0 0 20px;
+        box-shadow: 0 4px 15px rgba(76, 88, 68, 0.1); /* Sombra tenue */
+        margin: 20px 0;
+        transition: transform 0.3s ease;
+    }
+    
+    .history-text:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(76, 88, 68, 0.2);
     }
 
     .cv-image {
@@ -465,9 +478,9 @@ html, body {
 }
 
 .elegant-box {
-    border: 2px solid #6B8E23; /* Verde olivo elegante */
+    border: 1px solid #aebd90; /* Verde olivo elegante */
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
     background: rgba(245, 245, 220, 0.2); /* Color muy tenue tipo pergamino */
     box-shadow: 0 4px 10px rgba(76, 88, 68, 0.1); /* Sombra suave */
     margin: 20px auto;
@@ -487,16 +500,23 @@ html, body {
     /* Ajustes para móviles */
       
     .header {
-        border-width: 5px;
-        clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+        height: 70vh; /* Altura reducida */
+        clip-path: none; /* Elimina el recorte diagonal */
+        border-width: 4px; /* Borde más delgado */
+        background-size: cover; /* Cubre todo el ancho */
+        background-position: center top; /* Enfoca la parte superior */
+        display: flex;
+        align-items: flex-start; /* Alinea el contenido arriba */
+        padding-top: 20vh; /* Espacio para el texto */
     }
-    
+
     .heading {
-        font-size: 3rem;
+        font-size: 2.5rem; /* Tamaño ajustado */
+        margin-top: 20px; /* Espaciado superior */
     }
-    
+
     .heading-subtext {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
