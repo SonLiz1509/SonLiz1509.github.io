@@ -353,26 +353,15 @@ html, body {
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     /* Ajustes para móviles */
-    #portada {
-        background-position: top center;
-        background-size: contain; /* ajusta ancho y respeta proporción */
-        background-repeat: no-repeat;
-        height: 100vh;
-      }
-    
-      .texto-portada {
-        padding: 10px;
-        width: 90%;
-      }
-    
-      .texto-portada h1,
-      .texto-portada p {
-        font-size: 1em; /* Evita que se vea muy chico el texto */
-      }
       
     .header {
-        width: 100vh ; /* Ocupa toda la pantalla */ /* Ajusta la altura para móviles */
-        padding-top: 25vh;
+        width: 100%;
+        height: 70vh;
+        padding-top: 10vh;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
     }
 
     .heading {
