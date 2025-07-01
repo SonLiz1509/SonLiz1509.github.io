@@ -55,4 +55,48 @@ document.addEventListener('DOMContentLoaded', function() {
     // });
 
 });
+// Efecto de transición para la portada y el contenido
+  document.addEventListener('DOMContentLoaded', function () {
+    const botonFlecha = document.getElementById('verInvitacion');
+    const portada = document.getElementById('portada');
+    const contenido = document.getElementById('contenido');
+    const musica = document.getElementById('musica');
+    const controlesMusica = document.querySelector('.music-controls');
+    const botonFlotante = document.querySelector('.fixed-button');
+
+    if (botonFlecha) {
+      botonFlecha.addEventListener('click', function () {
+        portada.style.opacity = '0';
+
+        setTimeout(() => {
+          portada.style.display = 'none';
+          contenido.style.display = 'block';
+          contenido.style.opacity = '1';
+
+          if (controlesMusica) controlesMusica.style.display = 'flex';
+          if (botonFlotante) botonFlotante.style.display = 'flex';
+
+          if (musica) {
+            musica.muted = false;
+            musica.volume = 0.3;
+            musica.play().catch(e => {
+              console.warn("Autoplay bloqueado:", e);
+            });
+          }
+        }, 1000);
+      });
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const flecha = document.getElementById('verInvitacion');
+    const destino = document.getElementById('inicioContenido');
+
+    if (flecha && destino) {
+      flecha.addEventListener('click', function () {
+        destino.scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+  });
+
 

@@ -1,0 +1,192 @@
+/* Fuentes base */
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-color: #111; /* fondo oscuro */
+    color: #f0f0f0;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #a2e3c4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .heading {
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: #a2e3c4;
+    margin-top: 0.5em;
+  }
+  
+  .heading-subtext {
+    display: block;
+    font-size: 0.5em;
+    font-family: 'Quicksand', sans-serif;
+    color: #ccc;
+  }
+  
+  /* Botón portada */
+  #btnInvitacion {
+    padding: 1em 2em;
+    background-color: #a2e3c4;
+    color: #111;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #btnInvitacion:hover {
+    background-color: #8ad1af;
+  }
+  
+  /* Secciones */
+  .section {
+    padding: 2em;
+    margin: auto;
+    max-width: 1000px;
+  }
+  
+  .elegant-box {
+    background-color: #1c1c1c;
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(162, 227, 196, 0.1);
+    margin-bottom: 2em;
+  }
+  
+  /* Títulos */
+  .sub-heading {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5em;
+    color: #a2e3c4;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Contador */
+  .countdown {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin: 2em 0;
+  }
+  
+  .time-box {
+    text-align: center;
+    background: #222;
+    border-radius: 10px;
+    padding: 1em;
+    min-width: 80px;
+  }
+  
+  .time {
+    font-size: 2em;
+    color: #a2e3c4;
+  }
+  
+  .label {
+    font-size: 0.9em;
+    color: #bbb;
+  }
+  
+  /* Historia */
+  .history-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+  
+  .history-image, .cv-image {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .history-image img, .cv-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .history-text {
+    flex: 2 1 300px;
+  }
+  
+  /* Confirmación RSVP */
+  .rsvp-btn {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background-color: #a2e3c4;
+    color: #111;
+    border-radius: 25px;
+    margin-top: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .rsvp-btn:hover {
+    background-color: #8ad1af;
+  }
+  
+  /* Botón fijo de confirmar */
+  .fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #a2e3c4;
+    color: #111;
+    padding: 1em;
+    border-radius: 50px;
+    font-weight: bold;
+    z-index: 999;
+    display: none;
+    transition: background-color 0.3s;
+  }
+  
+  .fixed-button:hover {
+    background-color: #8ad1af;
+  }
+  
+  /* Música */
+  .music-controls {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: none;
+  }
+  
+  .music-button {
+    background: #222;
+    color: #a2e3c4;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 50%;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .history-container {
+      flex-direction: column;
+    }
+  
+    .heading {
+      font-size: 2.2em;
+    }
+  
+    .sub-heading {
+      font-size: 2em;
+    }
+  
+    .countdown {
+      gap: 1em;
+    }
+  }
+  

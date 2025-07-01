@@ -10,28 +10,33 @@
   </head>
   <body>  
 
-        <!-- Pantalla de inicio -->
-    <div id="portada">
-        <div class="texto-portada">
-            <p>"Encontrarnos fue descubrir que la ternura es nuestro don..."</p>
-            <p>Hoy celebramos un amor que nos hace sentir vivos, libres y eternos. 
-            Los invitamos a ser parte de este viaje donde la pasión y la ternura se entrelazan para siempre.</p>
-        </div>
-        <button id="btnInvitacion">Ver Invitación</button>
-    </div>
-
     <div id="contenido">
       
     <header class="header">
 
             <h1 class="heading">
                 Sandy & Hugo
-                <span class="heading-subtext"> se casan!</span>
+                <span class="heading-subtext"> se casan!!!</span>
             </h1>
 
     </header>
+
+    <div class="scroll-down" id="verInvitacion">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
       <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">CONFIRMAR</a> 
 
+      <section class="section" id="inicioContenido">
+      <div class="elegant-box">
+        <h2 class="sub-heading">"Encontrarnos fue descubrir que la ternura es nuestro don..."
+                       <p>Los invitamos a ser parte de este viaje donde la pasión y la ternura se entrelazan para siempre.</p>
+        </h2>
+      </div>
+      </section>
+      
       <section id="countdown" class="countdown">
         <div class="time-box">
           <span id="days" class="time">0</span>
@@ -51,12 +56,7 @@
         </div>
         <script src="./js/counter.js"></script>
       </section>
-      <section class="section">
-      <div class="elegant-box">
-        <h2 class="sub-heading">Recuerda</h2>
-        <p>"¡El gran día está por llegar! Estamos emocionados de compartir este momento tan especial con ustedes."</p>
-      </div>
-      </section>
+
       <section class="section">
       <div class="elegant-box">
         <h2 class="sub-heading">Su Historia de Amor</h2>
@@ -227,7 +227,7 @@
       </section>
     </div>
       <!-- Audio de fondo -->
-    <audio id="musica" loop>
+    <audio id="musica" autoplay loop>
         <source src="./audio/don_ternura.mp3" type="audio/mpeg">
         Tu navegador no soporta audio HTML5.
     </audio>
@@ -236,27 +236,41 @@
     <script src="./js/carrusel.js"></script>
 
 <script>
-    document.getElementById('btnInvitacion').addEventListener('click', function() {
-        document.getElementById('portada').style.opacity = '0';
+  document.addEventListener('DOMContentLoaded', function () {
+    // Mostrar contenido general y controles
+    const contenido = document.getElementById('contenido');
+    const controlesMusica = document.querySelector('.music-controls');
+    const botonFlotante = document.querySelector('.fixed-button');
 
-        setTimeout(() => {
-            document.getElementById('portada').style.display = 'none';
-            document.getElementById('contenido').style.display = 'block';
-            document.getElementById('contenido').style.opacity = '1';
+    if (contenido) {
+      contenido.style.display = 'block';
+      contenido.style.opacity = '1';
+    }
 
-            // Mostrar controles de música
-            document.querySelector('.music-controls').style.display = 'flex';
-            document.querySelector('.fixed-button').style.display = 'flex';
+    if (controlesMusica) controlesMusica.style.display = 'flex';
+    if (botonFlotante) botonFlotante.style.display = 'flex';
 
-            // Reproducir música
-            const musica = document.getElementById('musica');
-            musica.volume = 0.3;
-            musica.play().catch(e => {
-                console.log("Auto-play bloqueado:", e);
-            });
-        }, 1000);
-    });
+    // Preparar música
+    const musica = document.getElementById('musica');
+    let isPlaying = false;
+
+    function iniciarMusica() {
+      if (!isPlaying && musica) {
+        musica.volume = 0.3;
+        musica.play().then(() => {
+          isPlaying = true;
+          document.removeEventListener('click', iniciarMusica);
+        }).catch((e) => {
+          console.warn("Autoplay bloqueado:", e);
+        });
+      }
+    }
+
+    // Iniciar música al primer clic en cualquier parte del documento
+    document.addEventListener('click', iniciarMusica);
+  });
 </script>
+
 
     <script defer>
       var scroll = new SmoothScroll('a[href*="#"]');
