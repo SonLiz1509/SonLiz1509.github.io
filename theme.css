@@ -402,7 +402,7 @@ html, body {
     }
     
     .music-controls:hover {
-        background: background: rgba(20, 20, 20, 0.4); /* Resalta un poco más al pasar el mouse */
+        background: rgba(20, 20, 20, 0.4); /* Resalta un poco más al pasar el mouse */
     }
     
     .music-button {
@@ -425,14 +425,12 @@ html, body {
 .volume-control input[type="range"] {
     flex-grow: 1;
     height: 6px;
-    -webkit-appearance: none;
     background: linear-gradient(to right, #4C5844, #6B8E23);
     border-radius: 5px;
     outline: none;
 }
 
 .volume-control input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
     width: 18px;
     height: 18px;
     background: white;
@@ -739,5 +737,26 @@ html, body {
         margin: 10px 0;           /* Espaciado exterior */
         box-sizing: border-box;   /* Incluye padding en el ancho */
     }
+
+    .texto-portada {
+        width: 90%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 1.5em 1em;
+        background: rgba(255, 255, 255, 0.1); /* opcional para legibilidad */
+        backdrop-filter: blur(4px);           /* opcional para fondo de portada */
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    #mensajePersonalizado {
+        width: 90%;
+        max-width: 95%;
+        margin: 2em auto;
+        padding: 1.5em 1em;
+        font-size: 1em;
+    }
+
+
 
 }
