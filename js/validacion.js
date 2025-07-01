@@ -55,5 +55,5 @@ function validarCodigo() {
 
 
 function irAInvitacion() {
-  window.location.href = './index.html';
+  window.location.href = './invitacion.html';
 }
