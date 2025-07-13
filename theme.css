@@ -706,13 +706,32 @@ html, body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem; /* Reducido de 3rem a 1.5rem (mitad) */
+        padding: 0.20em; /* Reducido de 0.5em a 0.25em */
+    }
+
+    .elegant-box {
+        margin: 0.5rem auto; /* Reducir margen exterior */
+        padding: 0.5rem; /* Reducir padding interno */
+    }
+
+    .history-text {
+        margin: 0.5rem 0; /* Reducir margen en texto de historia */
+    }
+
+    .details {
+        margin: 0 auto 1em; /* Reducir margen inferior */
+    }
+
+    .gift-note {
+        margin-top: 1em; /* Reducir espacio superior */
     }
 
     .section img {
-        width: 80%; /* Hace la imagen más pequeña */
-        margin: 0 auto; /* Centra la imagen */
+        width: 90%; /* Aumenté ligeramente para mejor visualización */
+        margin: 0.5rem auto; /* Reducir margen vertical */
     }
+
 
     .scroll-animation {
     opacity: 0;
@@ -747,8 +766,13 @@ html, body {
         background: linear-gradient(to bottom, #f9f7f1, #eae6d9);
     }
 
-    .cv-image {
-        width: 100%;
+    .cv-image img {
+        width: 98%; /* Imagen adaptable */
+    }
+    
+    .caption {
+        padding: 0.25rem; /* Reduce el padding */
+        margin: 0.25rem 0; /* Reduce el margen */
     }
 
     .carousel {
@@ -806,7 +830,7 @@ html, body {
         white-space: nowrap;      /* Evita saltos de línea */
         min-width: 150px;         /* Ancho mínimo garantizado */
         text-align: center;       /* Centra el texto */
-        margin: 10px 0;           /* Espaciado exterior */
+        margin: 0.5rem 0; /* Reduce el margen vertical */
         box-sizing: border-box;   /* Incluye padding en el ancho */
     }
 
@@ -827,7 +851,7 @@ html, body {
   }
   
   .texto-portada p:first-of-type {
-    font-size: 1.8rem; /* Más grande para móviles */
+    font-size: 1.6rem; /* Más grande para móviles */
     line-height: 1.4;
     margin-bottom: 1.5rem;
   }
@@ -839,21 +863,21 @@ html, body {
   
   #codigoInput {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     font-size: 1.1rem;
     margin: 1rem 0;
   }
   
   #btnInvitacion {
     width: 100%;
-    padding: 14px;
+    padding: 10px;
     font-size: 1.2rem;
     margin-top: 1rem;
   }
   
   #mensajePersonalizado {
     width: 90%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6;
     padding: 1.5rem;
   }

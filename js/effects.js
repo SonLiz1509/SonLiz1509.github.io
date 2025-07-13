@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 // Efecto de transición para la portada y el contenido
-  document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     const botonFlecha = document.getElementById('verInvitacion');
     const portada = document.getElementById('portada');
     const contenido = document.getElementById('contenido');
@@ -65,7 +65,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const botonFlotante = document.querySelector('.fixed-button');
 
     if (botonFlecha) {
-      botonFlecha.addEventListener('click', function () {
+        botonFlecha.addEventListener('click', function () {
+        botonFlecha.style.opacity = '0';
+        botonFlecha.style.transition = 'opacity 0.5s ease';
+        setTimeout(() => botonFlecha.remove(), 500);
+
+        botonFlecha.remove();
+        
         portada.style.opacity = '0';
 
         setTimeout(() => {
@@ -84,9 +90,9 @@ document.addEventListener('DOMContentLoaded', function() {
             });
           }
         }, 1000);
-      });
+      }, { once: true }); // Opcional: Esto asegura que el evento solo se ejecute una vez
     }
-  });
+});
 
   document.addEventListener('DOMContentLoaded', function () {
     const flecha = document.getElementById('verInvitacion');
