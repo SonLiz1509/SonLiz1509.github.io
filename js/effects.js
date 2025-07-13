@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     }, {
-      threshold: 0.2 // el 10% del elemento debe ser visible
+      threshold: 0.1 // el 10% del elemento debe ser visible
     });
 
     const elements = document.querySelectorAll(".scroll-animation");

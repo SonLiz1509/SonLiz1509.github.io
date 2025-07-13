@@ -177,6 +177,17 @@ html, body {
     padding: 1em;
 }
 
+   .scroll-animation {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+    }
+
+    .scroll-animation.show {
+    opacity: 1;
+    transform: translateY(0);
+    }
+
 .sub-heading {
     font-family: 'Caveat', cursive;
     font-size: 2em; /* Reducido para móviles */
@@ -770,6 +781,56 @@ html, body {
         padding: 1.5em 1em;
         font-size: 1em;
     }
+
+    #portada {
+        background-position: top center;
+        background-size: contain;
+        height: 100vh;
+        padding: 20px;
+    }
+
+    .texto-portada {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .texto-portada p {
+        font-size: 1.2em;
+        line-height: 1.4;
+    }
+
+    .texto-portada h1 {
+        font-size: 2em;
+    }
+
+    .texto-portada input[type="text"] {
+        width: 90%;
+        padding: 12px;
+        font-size: 1em;
+        margin: 10px 0;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .texto-portada button {
+        padding: 12px 20px;
+        font-size: 1em;
+        border-radius: 8px;
+        background-color: #a5b78a;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .texto-portada button:hover {
+        background-color: #8d9f6e;
+    }
+
+    #mensajePersonalizado {
+        font-size: 1.1em;
+        text-align: center;
+    }
+
 
 
 
