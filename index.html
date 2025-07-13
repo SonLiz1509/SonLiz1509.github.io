@@ -9,10 +9,13 @@
 <body>
     <div id="portada">
         <div class="texto-portada">
-            <p>"Los invitamos a ser parte de este viaje donde la pasión y la ternura se entrelazan para siempre..."</p>
-            <p>Ingresa tu código de invitación:</p>
-            <input type="text" id="codigoInput" placeholder="Ej. F001">
-            <button id="btnInvitacion" onclick="validarCodigo()">Validar</button>
+        <p>"Los invitamos a ser parte de este viaje donde la pasión y la ternura se entrelazan para siempre..."</p>
+        <p>Ingresa tu código de invitación:</p>
+        
+        <input type="text" id="codigoInput" placeholder="Ej. F001">
+        <br> <!-- Esto ayuda si el botón se alineaba en línea -->
+        
+        <button id="btnInvitacion" onclick="validarCodigo()">Validar</button>
         </div>
         <div id="mensajePersonalizado" style="display:none; margin-top: 2em;"></div>
     </div>

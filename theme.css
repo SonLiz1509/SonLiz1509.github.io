@@ -6,30 +6,36 @@
 }
 
   /* Portada con imagen de fondo */
-  #portada {
-    position: fixed;
-    top: 0;
-    left: 0;
+    #portada {
+    position: relative;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url('./img/fondo.png') no-repeat center center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #eaf0e1 0%, #f7f7f2 100%); /* Verde olivo MUY claro */
+    background-repeat: no-repeat;
     background-size: cover;
-    z-index: 10;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
+    color: #222; /* Letras oscuras */
+    }
+
+@keyframes fadeInBackground {
+  0% { opacity: 0; transform: scale(1.05); }
+  100% { opacity: 1; transform: scale(1); }
 }
 
-/* Letrero y frase */
+
+
+/* Contenido siempre encima */
 .texto-portada {
-    text-align: center;
-    width: 80%;
-    padding: 20px;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Espaciado entre elementos */
 }
+
 
 .texto-portada h1 {
     font-size: 2.5em;
