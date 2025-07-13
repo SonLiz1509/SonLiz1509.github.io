@@ -99,4 +99,20 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+    document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+          observer.unobserve(entry.target); // para que solo se animen una vez
+        }
+      });
+    }, {
+      threshold: 0.2 // el 10% del elemento debe ser visible
+    });
+
+    const elements = document.querySelectorAll(".scroll-animation");
+    elements.forEach(el => observer.observe(el));
+  });
+
 

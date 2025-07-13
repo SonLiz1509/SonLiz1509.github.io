@@ -275,7 +275,7 @@ html, body {
     }
     
     .cv-image img {
-        width: 90%; /* Imagen adaptable */
+        width: 50%; /* Imagen adaptable */
         border-radius: 10px; /* Bordes redondeados */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
     }
@@ -644,13 +644,27 @@ html, body {
     }
 
     .section {
-        flex-direction: column; /* Cambia de fila a columna */
-        text-align: center; /* Centra el texto */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
     }
 
     .section img {
         width: 80%; /* Hace la imagen más pequeña */
         margin: 0 auto; /* Centra la imagen */
+    }
+
+    .scroll-animation {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+    }
+
+    .scroll-animation.show {
+    opacity: 1;
+    transform: translateY(0);
     }
 
     .history-container {
