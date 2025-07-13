@@ -72,6 +72,7 @@ html, body {
     margin: 0;
     height: 100%;
     text-align: center;
+    overflow-x: hidden; 
 }
 .header {
     position: relative;
@@ -783,11 +784,17 @@ html, body {
     }
 
     #portada {
-        background-position: top center;
-        background-size: contain;
-        height: 100vh;
-        padding: 20px;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Asegura que no se desborde en horizontal */
+    height: 100vh;
+    background-position: center top;
+    background-size: cover; /* Puedes probar también 'contain' si no quieres que se recorte nada */
+    background-repeat: no-repeat;
+    overflow: hidden;
+    touch-action: none; /* Evita gestos raros en móviles */
+  }
 
     .texto-portada {
         width: 100%;
