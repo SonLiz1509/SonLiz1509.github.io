@@ -5,10 +5,15 @@
     box-sizing: border-box; /* Asegura que el padding y el borde estén incluidos en el tamaño del elemento */
 }
 
-  /* Portada con imagen de fondo */
-    #portada {
-    position: relative;
-    width: 100%;
+html {
+  font-size: 16px; /* Tamaño base para escritorio */
+}
+
+
+/* Portada con imagen de fondo */
+#portada {
+  position: relative;
+  width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -46,7 +51,7 @@
 #codigoInput {
   font-family: 'Quicksand', sans-serif;
   padding: 10px;
-  font-size: 1em;
+  font-size: 1.2em;
   border-radius: 6px;
   border: 1px solid #ccc;
   width: 80%;
@@ -72,7 +77,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* Espaciado entre elementos */
+  gap: 1.5rem; /* Espacio consistente entre elementos */
 }
 
 
@@ -631,11 +636,15 @@ html, body {
 
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
-    /* Ajustes para móviles */
-        html, body {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; /* impide scroll horizontal */
+
+    html {
+        font-size: 18px; /* Aumenta el tamaño base para móviles */
+    }
+    
+    body {
+        text-size-adjust: 100%; /* Previene el zoom automático en iOS */
+        -webkit-text-size-adjust: 100%;
+        touch-action: manipulation; /* Mejora la respuesta táctil */
     }
       
     .header {
@@ -688,8 +697,8 @@ html, body {
     }
 
     #btnInvitacion {
-        padding: 12px 25px; /* Ajustar tamaño del botón */
-        font-size: 16px;
+        min-height: 50px; /* Tamaño táctil mínimo recomendado */
+        padding: 15px 30px;
     }
 
     .section {
@@ -801,80 +810,52 @@ html, body {
         box-sizing: border-box;   /* Incluye padding en el ancho */
     }
 
-
-    #portada {
-        position: relative;
-        width: 100vw;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px;
-        background: linear-gradient(135deg, #eaf0e1, #f7f7f2); /* fondo verde olivo claro */
-        background-size: cover;
-        background-position: center;
-        overflow-y: auto; /* solo scroll vertical */
-        overflow-x: hidden;
-        touch-action: pan-y; /* evita movimientos laterales indeseados */
-    }
-
-    .texto-portada {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 2em 1em;
-        text-align: center;
-        background: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(4px);
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-
-    .texto-portada p:first-of-type {
-        font-family: 'Caveat', cursive;
-        font-size: 1.8em;
-        line-height: 1.5;
-        margin-bottom: 1em;
-        color: #2F3A1D;
-    }
-
-    .texto-portada p:nth-of-type(2) {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 1.1em;
-        color: #333;
-    }
-
-    #codigoInput {
-        width: 100%;
-        padding: 12px;
-        font-size: 1em;
-        border-radius: 8px;
-        border: 1px solid #ccc;
-        margin: 15px 0;
-        box-sizing: border-box;
-    }
-
-    #btnInvitacion {
-        width: 100%;
-        padding: 12px;
-        font-size: 1em;
-        background-color: #a5b78a;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: background 0.3s ease;
-    }
-
-    #btnInvitacion:hover {
-        background-color: #8d9f6e;
-    }
-
-    #mensajePersonalizado {
-        font-size: 1.1em;
-        width: 90%;
-        margin: 2em auto;
-        text-align: center;
-    }
+#portada {
+    padding: 20px;
+    justify-content: flex-start; /* Empieza desde arriba */
+    min-height: 100vh;
+    height: auto;
+  }
+  
+  .texto-portada {
+    width: 90%;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .texto-portada p:first-of-type {
+    font-size: 1.8rem; /* Más grande para móviles */
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+  }
+  
+  .texto-portada p:nth-of-type(2) {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #codigoInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+  }
+  
+  #btnInvitacion {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  #mensajePersonalizado {
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 1.5rem;
+  }
 
 }
