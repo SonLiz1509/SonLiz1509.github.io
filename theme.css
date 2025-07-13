@@ -632,6 +632,11 @@ html, body {
 /* Media Queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     /* Ajustes para móviles */
+        html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* impide scroll horizontal */
+    }
       
     .header {
         height: 100%; /* Altura reducida */
@@ -797,54 +802,79 @@ html, body {
     }
 
 
-.texto-portada {
-    width: 90%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 1.5em 1em;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.15); /* opcional para fondo legible */
-    backdrop-filter: blur(4px);            /* efecto elegante en fondo claro */
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  }
+    #portada {
+        position: relative;
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        background: linear-gradient(135deg, #eaf0e1, #f7f7f2); /* fondo verde olivo claro */
+        background-size: cover;
+        background-position: center;
+        overflow-y: auto; /* solo scroll vertical */
+        overflow-x: hidden;
+        touch-action: pan-y; /* evita movimientos laterales indeseados */
+    }
 
-  .texto-portada p {
-    font-size: 1.1em;
-    line-height: 1.5;
-    margin: 0.5em 0;
-  }
+    .texto-portada {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2em 1em;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(4px);
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
 
-  #codigoInput {
-    width: 100%;
-    padding: 12px;
-    font-size: 1em;
-    margin: 10px 0;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
+    .texto-portada p:first-of-type {
+        font-family: 'Caveat', cursive;
+        font-size: 1.8em;
+        line-height: 1.5;
+        margin-bottom: 1em;
+        color: #2F3A1D;
+    }
 
-  #btnInvitacion {
-    padding: 12px 20px;
-    font-size: 1em;
-    border-radius: 8px;
-    background-color: #a5b78a;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-  }
+    .texto-portada p:nth-of-type(2) {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.1em;
+        color: #333;
+    }
 
-  #btnInvitacion:hover {
-    background-color: #8d9f6e;
-  }
+    #codigoInput {
+        width: 100%;
+        padding: 12px;
+        font-size: 1em;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        margin: 15px 0;
+        box-sizing: border-box;
+    }
+
+    #btnInvitacion {
+        width: 100%;
+        padding: 12px;
+        font-size: 1em;
+        background-color: #a5b78a;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    #btnInvitacion:hover {
+        background-color: #8d9f6e;
+    }
 
     #mensajePersonalizado {
-    font-size: 1em;
-    padding: 1em;
-    width: 90%;
-  }
-
+        font-size: 1.1em;
+        width: 90%;
+        margin: 2em auto;
+        text-align: center;
+    }
 
 }
