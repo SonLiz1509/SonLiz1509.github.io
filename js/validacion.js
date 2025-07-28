@@ -16,7 +16,7 @@ const invitados = {
   },
   "f0004": {
     "nombre": "Mauricio",
-    "mensaje": "Mauricio y Alexi",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
   "f0005": {
@@ -72,7 +72,7 @@ const invitados = {
   "f0015": {
     "nombre": "Mario Gonzalez y familia",
     "mensaje": "Mario González y familia\n\nTío Mario, siempre has sido un ejemplo de fortaleza y constancia en la familia.\nTu dedicación, tu manera de trabajar incansablemente y el interés que siempre has mostrado por nuestro crecimiento no han pasado desapercibidos.\nAunque no siempre estamos tan cerca, sé que puedo contar contigo cuando lo necesite.\nMe da mucho gusto saber que en su momento compartimos la misma área laboral, de alguna forma, eso también nos une.\nNos hará muy felices contar con tu presencia y la de tu familia en este momento tan especial para nosotros.\nCon mucho aprecio,\nHugo y Sandy",
-    "invitados": 4
+    "invitados": 3
   },
   "f0016": {
     "nombre": "Victor Sanchez y familia",
@@ -137,12 +137,12 @@ const invitados = {
   "f0028": {
     "nombre": "Angelica Gonzalez",
     "mensaje": "Angélica González\n\nTía Angélica, eres nuestra cuidadora número uno, siempre con las palabras justas y el apoyo preciso en el momento adecuado.\nCuando alguien se siente mal, tú sabes cómo atenderlo y brindar ese consejo que reconforta.\nTu amor y respeto han sido un pilar para todos nosotros, y te tenemos un cariño enorme por ello.\nNos llena de alegría poder compartir este día contigo, que siempre has sido una presencia tan importante y especial en nuestras vidas.\nCon mucho cariño,\nHugo y Sandy",
-    "invitados": 7
+    "invitados": 4
   },
   "f0029": {
     "nombre": "Sandra Gonzalez",
     "mensaje": "Sandra González\n\nTía Sandra, eres de esas personas con las que siempre se puede pasar un buen rato, una buena plática o recibir un consejo que de verdad deja huella.\nSiempre estás dispuesta a escuchar cuando tengo duda para verme y sentirme más waooo, sé que puedo acudir a ti sin pensarlo.\nNos has apoyado mucho en nuestra relación, y eso lo valoramos profundamente.\nTu manera de respetarnos, aceptarnos y preguntar con cariño cómo estamos, significa mucho para nosotros.\nGracias por estar presente y por ser parte importante de este momento que tanto hemos esperado.\nCon mucho cariño,\nHugo y Sandy",
-    "invitados": 5
+    "invitados": 3
   },
   "f0030": {
     "nombre": "Ivan Otañes",
@@ -200,17 +200,17 @@ const invitados = {
     "invitados": 2
   },
   "f0045": {
-    "nombre": "Hortencia",
+    "nombre": "Tía Hortencia y Familia",
     "mensaje": "Hola Queremos compartir contigo un momento muy especial en nuestras vidas: el inicio de esta nueva etapa como pareja.\nTu presencia sería muy significativa para nosotros, y nos encantaría poder celebrar juntos este día lleno de amor, alegría y agradecimiento.\nEsperamos contar contigo para acompañarnos en este paso tan importante.\nCon cariño,\nHugo y Sandy",
     "invitados": 3
   },
   "f0046": {
-    "nombre": "Luis",
+    "nombre": "Primo Luis y Familia",
     "mensaje": "Hola\nQueremos compartir contigo un momento muy especial en nuestras vidas: el inicio de esta nueva etapa como pareja.\nTu presencia sería muy significativa para nosotros, y nos encantaría poder celebrar juntos este día lleno de amor, alegría y agradecimiento.\nEsperamos contar contigo para acompañarnos en este paso tan importante.\nCon cariño,\nHugo y Sandy",
     "invitados": 3
   },
   "f0047": {
-    "nombre": "Daniel",
+    "nombre": "Tío Daniel y Familia",
     "mensaje": "Hola\nQueremos compartir contigo un momento muy especial en nuestras vidas: el inicio de esta nueva etapa como pareja.\nTu presencia sería muy significativa para nosotros, y nos encantaría poder celebrar juntos este día lleno de amor, alegría y agradecimiento.\nEsperamos contar contigo para acompañarnos en este paso tan importante.\nCon cariño,\nHugo y Sandy",
     "invitados": 3
   },
@@ -250,17 +250,17 @@ const invitados = {
     "invitados": 1
   },
   "f0055": {
-    "nombre": "Un gusto saludarte",
+    "nombre": "Sofy",
     "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
   "f0056": {
-    "nombre": "Un gusto saludarte",
+    "nombre": "Isidro",
     "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
   "f0057": {
-    "nombre": "Un gusto saludarte",
+    "nombre": "Giss",
     "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   }
