@@ -732,6 +732,9 @@ html, body {
         margin: 0.5rem auto; /* Reducir margen vertical */
     }
 
+    .scroll-down {
+        display: none !important;
+    }
 
     .scroll-animation {
     opacity: 0;
