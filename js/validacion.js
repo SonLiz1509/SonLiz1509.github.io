@@ -10,18 +10,18 @@ const invitados = {
     "invitados": 4
   },
   "f0003": {
-    "nombre": "Gabriel",
+    "nombre": "Gabriel y Familia",
     "mensaje": "Querido Gabo:\n\nEs para nosotros un privilegio invitarte a ti y a tu pareja a la culminación de un proyecto que comenzó hace algunos años… en tu consultorio.\n\nGracias por cada sesión, cada consejo y cada palabra que nos ayudó a reconstruirnos y a crecer juntos. Gracias a ti, hoy celebramos no solo una boda, sino el amor fortalecido que aprendimos a cuidar y a elegir día a día.\n\nEsto no hubiera sido posible sin tu guía, y por eso esperamos que nos acompañes en esta celebración tan significativa para nosotros.",
     "invitados": 2
   },
   "f0004": {
-    "nombre": "Mauricio",
+    "nombre": "Mauricio y Familia",
     "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
   "f0005": {
-    "nombre": "Mama de Karen",
-    "mensaje": "Sra. Rosalía Conde\n\nDesde que conozco a Karen, usted también ha sido parte importante en mi vida. Siempre tan atenta, con mensajes que llegan justo cuando los necesito, y con esa forma tan especial de hacerme sentir acompañada y comprendida.\nA veces pienso que Karen y yo somos tan parecidas porque nuestras mamás se preocupaban por nosotras con el mismo amor y entrega. Ver cómo la cuida y la consiente me hace imaginar cómo sería hoy mi vida con mi mamá.\nLe tengo un cariño muy especial, y nos emociona mucho poder compartir con usted este momento tan importante \npara nosotros.\n\nCon profundo aprecio,\nHugo y Sandy",
+    "nombre": "Rosalía Conde",
+    "mensaje": "Señora\n\nDesde que conozco a Karen, usted también ha sido parte importante en mi vida. Siempre tan atenta, con mensajes que llegan justo cuando los necesito, y con esa forma tan especial de hacerme sentir acompañada y comprendida.\nA veces pienso que Karen y yo somos tan parecidas porque nuestras mamás se preocupaban por nosotras con el mismo amor y entrega. Ver cómo la cuida y la consiente me hace imaginar cómo sería hoy mi vida con mi mamá.\nLe tengo un cariño muy especial, y nos emociona mucho poder compartir con usted este momento tan importante \npara nosotros.\n\nCon profundo aprecio,\nHugo y Sandy",
     "invitados": 1
   },
   "f0006": {
@@ -135,12 +135,12 @@ const invitados = {
     "invitados": 2
   },
   "f0028": {
-    "nombre": "Angelica Gonzalez",
+    "nombre": "Angelica Gonzalez y familia",
     "mensaje": "Angélica González\n\nTía Angélica, eres nuestra cuidadora número uno, siempre con las palabras justas y el apoyo preciso en el momento adecuado.\nCuando alguien se siente mal, tú sabes cómo atenderlo y brindar ese consejo que reconforta.\nTu amor y respeto han sido un pilar para todos nosotros, y te tenemos un cariño enorme por ello.\nNos llena de alegría poder compartir este día contigo, que siempre has sido una presencia tan importante y especial en nuestras vidas.\nCon mucho cariño,\nHugo y Sandy",
     "invitados": 4
   },
   "f0029": {
-    "nombre": "Sandra Gonzalez",
+    "nombre": "Sandra Gonzalez y familia",
     "mensaje": "Sandra González\n\nTía Sandra, eres de esas personas con las que siempre se puede pasar un buen rato, una buena plática o recibir un consejo que de verdad deja huella.\nSiempre estás dispuesta a escuchar cuando tengo duda para verme y sentirme más waooo, sé que puedo acudir a ti sin pensarlo.\nNos has apoyado mucho en nuestra relación, y eso lo valoramos profundamente.\nTu manera de respetarnos, aceptarnos y preguntar con cariño cómo estamos, significa mucho para nosotros.\nGracias por estar presente y por ser parte importante de este momento que tanto hemos esperado.\nCon mucho cariño,\nHugo y Sandy",
     "invitados": 3
   },
@@ -165,7 +165,7 @@ const invitados = {
     "invitados": 2
   },
   "f0038": {
-    "nombre": "Hugo y Yanis",
+    "nombre": "Hugo Slva y Yanis Francia",
     "mensaje": "Papá y mamá:\n\nNo hay palabras suficientes para agradecerles todo el apoyo infinito que nos han brindado desde el momento en que decidimos estar juntos.\nSu amor, su confianza y su respaldo han sido la base firme sobre la cual hemos construido nuestros sueños.\nGracias por abrirnos las puertas, por estar siempre ahí en cada paso del camino, con generosidad y sin condiciones.\nUstedes han hecho posible que este sueño se convierta en realidad.\nQueremos invitarlos a compartir con nosotros este día tan especial, donde celebraremos no solo nuestro amor, sino también la familia que nos han ayudado a formar.",
     "invitados": 2
   },
@@ -205,12 +205,12 @@ const invitados = {
     "invitados": 3
   },
   "f0046": {
-    "nombre": "Primo Luis y Familia",
+    "nombre": "Sr. Luis y Familia",
     "mensaje": "Hola\nQueremos compartir contigo un momento muy especial en nuestras vidas: el inicio de esta nueva etapa como pareja.\nTu presencia sería muy significativa para nosotros, y nos encantaría poder celebrar juntos este día lleno de amor, alegría y agradecimiento.\nEsperamos contar contigo para acompañarnos en este paso tan importante.\nCon cariño,\nHugo y Sandy",
     "invitados": 3
   },
   "f0047": {
-    "nombre": "Tío Daniel y Familia",
+    "nombre": "Daniel Sánchez y Familia",
     "mensaje": "Hola\nQueremos compartir contigo un momento muy especial en nuestras vidas: el inicio de esta nueva etapa como pareja.\nTu presencia sería muy significativa para nosotros, y nos encantaría poder celebrar juntos este día lleno de amor, alegría y agradecimiento.\nEsperamos contar contigo para acompañarnos en este paso tan importante.\nCon cariño,\nHugo y Sandy",
     "invitados": 3
   },
@@ -235,27 +235,27 @@ const invitados = {
     "invitados": 3
   },
   "f0052": {
-    "nombre": "Amigas Mama",
+    "nombre": "Invitado Especial",
     "mensaje": "Hola \nNos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
   "f0053": {
-    "nombre": "Ana",
+    "nombre": "Ana Astudillo y Familia",
     "mensaje": "Hola \nNos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
   "f0054": {
-    "nombre": "Gonzalo",
+    "nombre": "Gonzalo Garcia",
     "mensaje": "Hola \nNos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 1
   },
   "f0055": {
-    "nombre": "Sofy",
+    "nombre": "Sofia Aguirre y Familia",
     "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
   "f0056": {
-    "nombre": "Isidro",
+    "nombre": "Isidro y Familia",
     "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
