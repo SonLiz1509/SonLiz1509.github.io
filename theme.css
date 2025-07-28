@@ -550,6 +550,14 @@ html, body {
   transform: translateX(-50%);
   cursor: pointer;
   z-index: 10;
+  opacity: 1; /* Visible inicialmente */
+  transition: opacity 0.5s ease; /* Transición suave al ocultarse */
+}
+
+/* Ocultar después de hacer scroll (se activará con JS) */
+.scroll-down.hidden {
+    opacity: 0;
+    pointer-events: none; /* Desactiva interacciones */
 }
 
 .scroll-down span {

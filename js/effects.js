@@ -121,4 +121,20 @@ document.addEventListener('DOMContentLoaded', function () {
     elements.forEach(el => observer.observe(el));
   });
 
+  document.addEventListener("DOMContentLoaded", function() {
+    const scrollDown = document.querySelector('.scroll-down');
+    const header = document.querySelector('.header');
+
+    if (scrollDown && header) {
+        window.addEventListener('scroll', function() {
+            // Ocultar flechas si el scroll supera la altura del header
+            if (window.scrollY > header.offsetHeight * 0.5) {
+                scrollDown.classList.add('hidden');
+            } else {
+                scrollDown.classList.remove('hidden');
+            }
+        });
+    }
+});
+
 
