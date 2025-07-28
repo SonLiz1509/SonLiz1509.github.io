@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Estado inicial
     musica.volume = 0.3;
-    let isPlaying = true;
+    let isPlaying = false;
 
     // Toggle Play/Pause
     toggleBtn.addEventListener('click', function() {
