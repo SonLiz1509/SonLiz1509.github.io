@@ -236,7 +236,7 @@ const invitados = {
   },
   "f0052": {
     "nombre": "Invitado Especial",
-    "mensaje": "Hola \nNos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 2
   },
   "f0053": {
