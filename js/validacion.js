@@ -165,7 +165,7 @@ const invitados = {
     "invitados": 2
   },
   "f0038": {
-    "nombre": "Hugo Slva y Yanis Francia",
+    "nombre": "Hugo Silva y Yanis Francia",
     "mensaje": "Papá y mamá:\n\nNo hay palabras suficientes para agradecerles todo el apoyo infinito que nos han brindado desde el momento en que decidimos estar juntos.\nSu amor, su confianza y su respaldo han sido la base firme sobre la cual hemos construido nuestros sueños.\nGracias por abrirnos las puertas, por estar siempre ahí en cada paso del camino, con generosidad y sin condiciones.\nUstedes han hecho posible que este sueño se convierta en realidad.\nQueremos invitarlos a compartir con nosotros este día tan especial, donde celebraremos no solo nuestro amor, sino también la familia que nos han ayudado a formar.",
     "invitados": 2
   },
