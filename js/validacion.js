@@ -250,19 +250,39 @@ const invitados = {
     "invitados": 1
   },
   "f0055": {
-    "nombre": "Sofia Aguirre y Familia",
-    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
-    "invitados": 2
+    "nombre": "Sofy",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda. \nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "invitados": 1
   },
   "f0056": {
-    "nombre": "Isidro y Familia",
-    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
-    "invitados": 2
+    "nombre": "Pamela",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "invitados": 1
   },
   "f0057": {
-    "nombre": "Giss",
-    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
-    "invitados": 2
+    "nombre": "Aby",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "invitados": 1
+  },
+  "f0058": {
+    "nombre": "Patricia",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "invitados": 1
+  },
+  "f0059": {
+    "nombre": "Andy",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "invitados": 1
+  },
+  "f0060": {
+    "nombre": "Dianita",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "invitados": 1
+  },
+  "f0061": {
+    "nombre": "Miros",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "invitados": 1
   }
 };
 
