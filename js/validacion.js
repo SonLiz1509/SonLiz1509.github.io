@@ -164,6 +164,11 @@ const invitados = {
     "mensaje": "Nintendo:\nDesde aquellos días en la vocacional, Ricardo, tú fuiste más que un amigo;\nfuiste un hermano.\nAunque la vida y la distancia hayan intentado separarnos, siempre sentí tu apoyo firme y esa amistad incondicional que nunca se rompe.\nAhora, en este momento tan especial que estamos por comenzar, queremos invitarles de corazón que tu junto con Paty a que nos acompañen no solo como invitados, sino para celebrar la amistad, el cariño y el apoyo que nos hemos dado en todo este tiempo.",
     "invitados": 2
   },
+    "f0035": {
+    "nombre": "Hugo González y Familia",
+    "mensaje": "Tío Hugo:\nEres una parte muy especial de mi vida y de mi historia. Siempre llevarás contigo un pedacito de mi mamá, no solo en el corazón, sino literalmente en tu ser, gracias a aquel gesto de amor tan grande que te permitió seguir adelante cuando eras pequeño.\nAunque quizá no siempre estemos tan cerca, quiero que sepas que te quiero muchísimo y que valoro cada vez que me has tendido la mano cuando lo he necesitado.\nAdmiro tu fortaleza, cómo sigues luchando y enfrentando cada reto con valentía. Para mí, tenerte en este día tan importante es como sentir que mi mamá también está presente, acompañándonos en este nuevo capítulo de nuestra vida.\nCon todo mi cariño,\nHugo y Sandy",
+    "invitados": 5
+  },
   "f0038": {
     "nombre": "Hugo Silva y Yanis Francia",
     "mensaje": "Papá y mamá:\n\nNo hay palabras suficientes para agradecerles todo el apoyo infinito que nos han brindado desde el momento en que decidimos estar juntos.\nSu amor, su confianza y su respaldo han sido la base firme sobre la cual hemos construido nuestros sueños.\nGracias por abrirnos las puertas, por estar siempre ahí en cada paso del camino, con generosidad y sin condiciones.\nUstedes han hecho posible que este sueño se convierta en realidad.\nQueremos invitarlos a compartir con nosotros este día tan especial, donde celebraremos no solo nuestro amor, sino también la familia que nos han ayudado a formar.",
