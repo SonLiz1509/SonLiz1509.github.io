@@ -26,7 +26,7 @@ const invitados = {
   },
   "f0006": {
     "nombre": "Ricardo",
-    "mensaje": "Amigo Richi:\n\nPara nosotros ha sido un honor tenerte en nuestras vidas.\nLlegaste de repente y, sin darnos cuenta, te volviste alguien muy importante.\n\nTu apoyo, tus consejos, y esa forma tan única de ser, han hecho que hoy podamos decir con orgullo: nuestro amigo Ricardo.\n\nY es justamente por eso, que queremos invitarte a compartir con nosotros un día muy especial.\nUno que no sería igual sin ti.\n¡Queremos tenerte como uno de nuestros invitados en esta gran celebración!especial que eres.",
+    "mensaje": "Amigo Richi:\n\nPara nosotros ha sido un honor tenerte en nuestras vidas.\nLlegaste de repente y, sin darnos cuenta, te volviste alguien muy importante.\n\nTu apoyo, tus consejos, y esa forma tan única de ser, han hecho que hoy podamos decir con orgullo: nuestro amigo Ricardo.\n\nY es justamente por eso, que queremos invitarte a compartir con nosotros un día muy especial.\nUno que no sería igual sin ti.\n¡Queremos tenerte como uno de nuestros invitados en esta gran celebración!.",
     "invitados": 2
   },
   "f0007": {
@@ -265,7 +265,7 @@ const invitados = {
     "invitados": 1
   },
   "f0058": {
-    "nombre": "Patricia",
+    "nombre": "Paty",
     "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
     "invitados": 1
   },
