@@ -288,6 +288,11 @@ const invitados = {
     "nombre": "Miros",
     "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
     "invitados": 1
+  },
+  "f0062": {
+    "nombre": "Marisol",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
+    "invitados": 2
   }
 };
 
