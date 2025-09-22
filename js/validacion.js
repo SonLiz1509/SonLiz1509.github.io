@@ -96,7 +96,7 @@ const invitados = {
   },
   "f0020": {
     "nombre": "Jorge Cid y familia",
-    "mensaje": "Marisol\nQueremos decirte que Hugo y yo estamos por casarnos, y aunque ha habido distancia y silencios, no queríamos dejar fuera a alguien que ha sido parte tan importante en mi vida.\nMás allá de lo que estemos viviendo hoy, esta invitación es una forma de compartirte que este paso también lleva mucho de lo que soy, de lo que aprendí y viví en familia.\nAquí te dejamos la invitación, si decides acompañarnos, será desde el corazón.\nCon cariño,\nSandra y Hugo",
+    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros.",
     "invitados": 4
   },
   "f0021": {
