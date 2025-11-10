@@ -296,12 +296,12 @@ const invitados = {
   },
     "f0063": {
     "nombre": "Dona",
-    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "mensaje": "Aunque ya no compartimos el día a día en el trabajo, me alegra muchísimo que sigamos en contacto. Tu amistad ha sido un verdadero regalo, y cada vez que hemos compartido, ha sido un momento valioso. Me emociona mucho que puedas acompañarnos en este día tan especial y espero que disfrutes la boda tanto como yo valoro tu amistad.\nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
     "invitados": 1
   },
       "f0064": {
     "nombre": "Gis",
-    "mensaje": "Nos sentimos muy felices de compartir contigo este momento tan especial en nuestras vidas.\nHemos preparado esta invitación con mucho cariño para que puedas conocer todos los detalles de nuestra boda.\nTu presencia sería un verdadero honor para nosotros. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
+    "mensaje": "Desde que compartimos momentos fuera del trabajo, he disfrutado enormemente cada risa y cada carcajada contigo. Hay algo muy especial en nuestra amistad, esa capacidad de reírnos sin parar y de conectar de una manera tan auténtica. Me hace muy feliz poder compartir este día tan importante contigo y tener la oportunidad de celebrar juntas. \nEn caso de que quieras llevar a alguin especial adicional, avisanos, para revisarlo.",
     "invitados": 1
   }
 };
